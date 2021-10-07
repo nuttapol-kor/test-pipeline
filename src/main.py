@@ -8,4 +8,4 @@ def index():
 
 @app.get('/test')
 def test1():
-    return {"test": "test"}
+    return {"test": "tests"}
