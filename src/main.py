@@ -13,3 +13,7 @@ def test1():
 @app.get('/test/2')
 def test2():
     return {"test": "test2"}
+
+@app.get('test/3')
+def test3():
+    return {"test": "test3"}
