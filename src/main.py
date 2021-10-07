@@ -23,3 +23,7 @@ def test4():
     x = 10
     y = 20
     return {x: y}
+
+@app.get('test/5')
+def test5():
+    return {"test": "test5"}
