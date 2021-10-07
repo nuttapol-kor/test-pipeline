@@ -14,15 +14,15 @@ def test1():
 def test2():
     return {"test": "test2"}
 
-@app.get('test/3')
+@app.get('/test/3')
 def test3():
     return {"test": "test3"}
 
-@app.get('test/4')
+@app.get('/test/4')
 def test4():
     x = 10
     y = 20
-    return {x: y}
+    return {str(x): str(y)}
 
 @app.get('test/5')
 def test5():
