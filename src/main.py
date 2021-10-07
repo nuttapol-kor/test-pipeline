@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 def index():
-    return {"data": "sky"}
+    return {"data": "sea"}
 
 @app.get('/test')
 def test1():
